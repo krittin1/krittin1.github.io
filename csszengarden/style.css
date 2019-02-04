@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+  @media screen and (max-width:600px) {
+		.column {
+			width: 100%;
+			
+		}
+	}
+
+	@keyframes pulse {
+		100% {
+			background-color: black;
+		}
+		50% {
+			background-color: #FF4136;
+		}
+		30% {
+			background-color: green;
+		}
+	}
+		
+	
+	body {     margin:0;
+			   background-color: black;
+			   color: azure;
+			   animation: pulse 30s infinite;
+          }
+
+	  header {
+		
+		height: 650px;
+        background: url("800px-Black_and_white_forest_lake_(Unsplash).jpg") center;
+        background-size: cover; 
+		color: white;
+		text-align: center;
+		font-size: 15px;
+		padding: 5px;
+		
+		
+	  }
+
+	   h2 {
+		
+		font-size: 18px;
+		font-family: 'Over the Rainbow', cursive;
+	  }
+  
+
+	  * {
+		box-sizing: border-box;
+	  }
+
+	  
+	  .explanation {
+		float: left;
+		width: 40%;
+		
+		padding: 25px;
+		margin-left: 50px
+	  }
+	  .participation {
+		float: left;
+		
+		width: 40%;
+		padding: 25px;
+	
+		margin-left: 50px
+		
+	  }  
+	  .benefits {
+		float: left;
+		width: 40%;
+		padding: 25px;
+		margin-left: 50px 
+		
+	
+		} 
+		
+		
+	 .requirements {
+		 
+		float: center; 
+		width: 40%;
+		padding: 25px;
+		margin-left: 50px 
+		
+	 } 
+		
+		
+		
+		
+	  
+	  .preamble {
+		float: left;
+		
+		width: 40%;
+		padding: 25px;
+		margin-left: 50px
+	
+		
+	  } 
+	  
+	 
+	 
+	  
+	  
+
+	  footer { 
+		text-align: center; 
+	
+		}
+	footer a:link, footer a:visited { 
+		margin-right: 20px; 
+		
+		}
+		a:link { 
+			font-weight: bold; 
+			text-decoration: none; 
+			color: #B7A5DF;
+			
+			}
+		a:visited { 
+			font-weight: bold; 
+			text-decoration: none; 
+			color: #D4CDDC;
+			
+			}
+		a:hover, a:focus, a:active { 
+			text-decoration: underline; 
+			color: #9685BA;
+			
+			}
+		abbr {
+			border-bottom: none;
+		
+			}
+	
+
+
+			
+  
+
+	.summary{
+		text-align: center;
+		
+	}
+
+  
+  
+  
+
+	.design-selection h3{
+		
+		
+		margin-left: 50px;
+	  
+	} 
+
+	.design-archives h3{
+		
+		
+		margin-left: 50px;
+	}
+
+	.zen-resources h3{
+		margin-left: 50px;
+		
+	}
+
+	.zen-resources h3{
+		margin-left: 50px;
+		
+	}
+
+
+	h3 {
+		font-family: 'Playfair Display', serif;
+		
+	}
+	
+	p{
+		font-family: 'Playfair Display SC', serif;
+	}
+
+	h1 {
+		/*font-family: 'Prata', serif; */
+		font-family: 'Syncopate', sans-serif;
+		font-size: 50px;
+	}
+
+	
+	
+	
+	
+
