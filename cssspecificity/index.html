@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html  >
+    <head>
+            <meta charset="utf-8">
+            <title>CSS Specificity</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+
+    
+    
+    <body id="body">
+        <div class="container ">
+            <br>
+            <h1 align="center">CSS Specificity สวัสดีชาวโลก</h1>
+            <hr>
+        <p align="center">คือ ผมจะมาพูดถึง CSS Specificity กันว่ามันทำงานอย่างไร และมันคืออะไรกันนะครับ </p>
+        <p> CSS Specificity is fun</p>
+
+
+        <div class="parent">
+            <h3>
+                CSS Specificity คือ การให้ความสำคัญต่อ Selector ที่จะแสดงผลบนหน้าเว็บโดย web browser
+            </h3>
+            <p>เราจะมาพูดถึงคะแนนความสำคัญของค่า specificity กัน ถ้า selector ไหนมีคะแนนมากกว่าจะถูกเลือกแสดงผลบนเว็บ</p>
+            </div>
+
+        <div class="score">
+            <ul>คะแนนความสำคัญของ selector 
+                <li>1. การเขียนแบบ inline เช่นการเขียน css ใส่ใน style เลยจะได้คะแนน +1000</li>
+                <li>2. การใช้ ID selector จะได้คะแนน +100</li>
+                <li>3. การใช้ class selector จะได้คะแนน +10</li>
+                <li>4. การใช้  element selector จะได้คะแนน +1<lip>
+                </ul>
+        </div>
+
+        <div class="child"> 
+            <br>
+            <p>CSS Specificity จะให้คะแนนมากน้อยต่างกัน</p>
+
+        </div>
+
+        <div class="selector" >
+            <div class="element" >
+                <h3>Element Selector</h3>
+                <p>ค่าคะแนนความสำคัญเท่ากับ +1</p>
+                <p>h1{                     </p>
+                <p>      color: blue;     </p>   
+                <p>      font-size: 18px; </p>   
+                <p>     }                  </p>
+            
+                
+            </div>
+    
+            <div class="id">
+                <h3>ID Selector</h3>
+                <p>ค่าคะแนนความสำคัญเท่ากับ +100        </p>
+                <p>#top{                            </p>
+                <p>      backgroud-color: pink;     </p>   
+                <p>      padding: 18px;             </p>   
+                <p>     }                           </p>
+            </div>
+    
+            <div class="inline">
+                <h3>inline</h3>
+                <p>ค่าคะแนนความสำคัญเท่ากับ +1000        </p>
+                <p>	&lt;a style="color: green"&gt;    </p>
+                
+            </div>
+    
+            <div class="class">
+                <h3>Class Selector</h3>
+                <p>ค่าคะแนนความสำคัญเท่ากับ +10        </p>
+                <p>.left{                            </p>
+                <p>      text-align: left;     </p>   
+                <p>      padding: 18px;             </p>   
+                <p>     }                           </p>
+            </div>
+
+            <div class="compare">
+                <ul>ถ้ามีการใช้งานของ selector ซ้อนกันหลายชั้น เราจะนำคะแนนของแต่ละ selector มารวมกันถ้า selector ตัวไหนคะแนนรวม มากสุดจะถูกแสดงผลบนเว็บเพจ
+                <li>  div a { }        เท่ากับ    2         คะแนน                        </li>
+                <li>  .top h1   { }    เท่ากับ   11         คะแนน                        </li>
+                <li>  div h3 a {  }    เท่ากับ    3         คะแนน                        </li>   
+                <li>  #top {  }        เท่ากับ  100         คะแนน                        </li>   
+                <li>  .top {  }        เท่ากับ    10        คะแนน                        </li>
+                </ul>
+
+                <p>ดังนั้น selector #top จะถูกแสดงบนเว็บแทน   </p>
+                <p>แต่ถ้าคะแนนเท่ากัน จะดูว่า Selector ตัวไหนที่ถูก import เข้ามาก่อนจะถูกนำมาใช้งานแทนนะครับ</p>
+                <p>สุดท้ายนี้ ถ้าผู้เขียนผิดพลาดประการใด ก็ขออภัยมา ณ ที่นี้นะครับ ขอบคุณครับ</p>
+                <hr>
+                <br>
+                <br>
+                <br>
+            </div>
+
+
+        </div>
+    </body>
+
+</html> 

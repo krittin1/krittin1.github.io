@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+@keyframes pulse {
+    0% {
+      background-color: lightgrey ;
+    }
+    20% {
+      background-color: pink;
+    }
+    40% {
+        background-color: whitesmoke;
+      }
+      60% {
+        background-color: powderblue;
+      }
+      100% {
+        background-color: aquamarine;
+      }
+  }
+#body {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    animation: pulse 5s infinite;
+    font-family: 'Chakra Petch', sans-serif; 
+    
+}
+
+p{
+    color: blueviolet;
+}
+
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+    color: brown;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .child {
+    
+    text-align: center;/* Or whatever */
+    height: 100px; /* Or whatever */  
+    font-size: 28px;
+    margin: auto;  /* Magic! */
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+  
+  .id {
+    float: left;
+    width: 40%;
+    
+    padding: 25px;
+    margin-left: 50px
+    
+  }
+  .inline {
+    float: left;
+    
+    width: 40%;
+    padding: 25px;
+
+    margin-left: 50px
+    
+    
+  }  
+  .class {
+    float: left;
+    width: 40%;
+    padding: 25px;
+    margin-left: 50px 
+    
+
+    } 
+    
+    
+ .element{
+     
+    float: left; 
+    width: 40%;
+    padding: 25px;
+    margin-left: 50px 
+    
+ } 
+    
+    
+    
+    
+  
+  .compare{
+    float: left;
+    margin-left: 50px
+    
+    
+  } 
+  
