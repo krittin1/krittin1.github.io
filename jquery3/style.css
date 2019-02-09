@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+        
+    }
+}
+body {
+		
+    height: 520px;
+    background: url("car.jpg") center;
+    background-size: cover; 
+    color: white;
+    
+    
+    padding: 5px;
+    
+    
+  }
+
+  body h1{
+      font-size: 55px;
+      text-align: center;
+      color: white;
+      margin-top: 70px;
+      font-family: 'Playfair Display', serif;
+  }
+
+  .detail li{
+
+      color: darkslategrey;
+      text-align: left;
+      font-size: 20px;
+      margin-left: 2.5%;
+      font-family: 'Handlee', cursive;
+  }
+
+  .refernces {
+
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 20px; 
+    color:blue;
+    margin-left: 2.5%;
+    text-align: left;
+    }
+
+   
+    .detail h1{
+        font-weight: bold;
+        color: black;
+        text-align: left;
+        font-size: 25px;
+    }  
+
+    footer{
+      background-color: black;
+      margin:0px;
+    }

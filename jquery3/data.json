@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Alan Turing",
+        "age" : 30,
+        "brand" : "Toyota",
+        "color" : "Red",
+        "model" : "3ede4",
+        "price" : 1959900
+    },
+    { 
+        "name": "Kate Lee",
+        "age" : 25,
+        "brand" : "Benz",
+        "color" : "Blue",
+        "model" : "3ede4",
+        "price" : 4569150 
+
+    },
+
+    {
+        "name"  : "Khan Poonkwan",
+        "age"   : 15,
+        "brand" : "Mclaren",
+        "color" : "Black",
+        "model" : "720s",
+        "price" : "Free" 
+    },
+
+    {
+        "name"  : "Flukefick Metey",
+        "age"   : 23,
+        "brand" : "Honda",
+        "color" : "Black",
+        "model" : "Civic",
+        "price" : "Free" 
+    },
+
+    {
+        "name"  : "Kevin Lee",
+        "age"   : 23,
+        "brand" : "Ferrari",
+        "color" : "Red",
+        "model" : "488GTB",
+        "price" : 75000000 
+    },
+
+    {
+        "name"  : "Kit Kitsamas",
+        "age"   : 23,
+        "brand" : "Ford",
+        "color" : "Yellow",
+        "model" : "GT",
+        "price" : 35000000 
+    },
+
+    {
+        "name"  : "Lookmai Nippitcha",
+        "age"   : 23,
+        "brand" : "Lamborghini",
+        "color" : "Orange",
+        "model" : "Huracán",
+        "price" : 85000000 
+    },
+
+    {
+        "name"  : "Lego Eiei",
+        "age"   : 27,
+        "brand" : "Ferrari ",
+        "color" : "Silver",
+        "model" : "California T",
+        "price" : 23319000 
+    },
+
+    {
+        "name"  : "Nut Marry",
+        "age"   : 23,
+        "brand" : "Porsche",
+        "color" : "Rose Gold",
+        "model" : "911 Carrera",
+        "price" : 8800000
+    },
+
+    {
+        "name"  : "Boss Puthipong",
+        "age"   : 23,
+        "brand" : "Porsche",
+        "color" : "Gold",
+        "model" : "718 BOXSTER",
+        "price" : 5500000
+    },
+
+    {
+        "name"  : "Bom Teerayuth",
+        "age"   : 23,
+        "brand" : "Lykan",
+        "color" : "White",
+        "model" : "Hypersport",
+        "price" : 34000000000
+    },
+
+    
+    {
+        "name"  : "Teety Krittin",
+        "age"   : 23,
+        "brand" : "Aston Martin",
+        "color" : "Space Black",
+        "model" : "VANQUISH S",
+        "price" : 85500000
+    }
+]
