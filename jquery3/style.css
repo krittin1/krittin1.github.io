@@ -12,9 +12,9 @@
 body {
 		
     height: 520px;
-    background: url("car.jpg") center;
+    background: url("car.jpg") center no-repeat;
     background-size: cover; 
-    color: white;
+    color: black;
     
     
     padding: 5px;
@@ -46,7 +46,26 @@ body {
     font-size: 25px;
     
 }
+#input-text{
+    border-radius: 100px;
+    
+}
 
+#input-brand{
+    border-radius: 100px;
+   
+}
+
+
+#input-model{
+    border-radius: 100px;
+    
+}
+.container label{
+    color:whitesmoke;
+    font-size: 150%;
+    font-family: 'Handlee', cursive;
+}
 a:link { 
     font-weight: bold; 
     text-decoration: none;
@@ -67,4 +86,10 @@ a:link {
     footer{
       background-color: black;
       margin:0px;
+      
     }
+
+    footer p{
+        color: whitesmoke;
+    }
+
