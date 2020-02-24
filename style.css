@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Comfortaa&display=swap');
+
+.title2{
+    
+    font-family: 'SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial',sans-serif;
+    font-size: 25px;
+}
+
+.footer-copyright{
+    font-size: 13px;
+}
+
+.introduce{
+    
+}
+
+
+.w3-content w3-padding-64 w3-text-grey w3-xlarge{
+    color: crimson;
+}
+
+.rotate {
+    animation: rotation 8s ;
+  }
+  
+@keyframes rotation {
+from {
+      transform: rotate(0deg);
+}
+to {
+      transform: rotate(359deg);
+    }
+}
+
+.mystory{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    /* color:#f7f7f7; */
+    /* background-color:#151414; */
+    background-color: #0d0c0c;
+    text-align: justify;
+    border-radius: 20px;
+    
+    font-size: 18px;
+    padding: 15px;
+}
