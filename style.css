@@ -34,6 +34,8 @@ to {
     }
 }
 
+
+
 .mystory{
     margin-top: 0;
     margin-bottom: 1rem;
@@ -47,9 +49,105 @@ to {
     /* color:#f7f7f7; */
     /* background-color:#151414; */
     background-color: #0d0c0c;
+    /* text-align: justify; */
+    border-radius: 20px;
+    
+    /* font-size: 18px; */
+    padding: 15px;
+}
+
+#resume{
+    border-radius: 20px;
+    font-size: 1.2em;
+    
+
+}
+
+
+.collegeDetail{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    /* color:#f7f7f7; */
+    /* background-color:#151414; */
+    background-color: #0d0c0c;
     text-align: justify;
     border-radius: 20px;
     
-    font-size: 18px;
+    
     padding: 15px;
+}
+
+.img-col{
+    float:  left;
+    margin-right:45px;
+    display: block;
+    
+   
+    
+}
+
+
+
+span.centerImage {
+    text-align: center;
+}
+
+.img-schol{
+    float:  left;
+    margin-right:45px;
+    display: block;
+    
+}
+
+.schoolDetail{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    /* color:#f7f7f7; */
+    /* background-color:#151414; */
+    background-color: #0d0c0c;
+    text-align: justify;
+    border-radius: 20px;
+    
+   
+    padding: 15px;
+}
+
+
+.pm-project{
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+}
+
+
+.pm-detail{
+    
+    font-size: 17px;
+    display: inline-block;
+    background-color: #0d0c0c;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 15px;
+    color: #7a7979;
+}
+
+.title-pm{
+    text-decoration: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
 }
