@@ -3,8 +3,8 @@
 <title>Teety Krittin</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="/favicon.ico" >
-<link rel="icon" href="/favicon.ico" >
+<link rel="shortcut icon" href="https://krittin1.github.io//favicon.ico" >
+<!-- <link rel="icon" href="favicon.ico" > -->
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -35,13 +35,10 @@ body, h1,h2,h3,h5,h6 {font-family: "Montserrat", sans-serif}
   <br>
   <img class="rotate" src="/images/logo.png" style="width:70%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user-circle w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
+  
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-star-o w3-xxlarge"></i>
     <p>EXPERIENCE</p>
@@ -60,8 +57,8 @@ body, h1,h2,h3,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+   
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   
@@ -73,10 +70,12 @@ body, h1,h2,h3,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Teety Krittin.</h1>
+    <h1 class="w3-jumbo"> Teety Krittin.</h1>
 
+    <!-- <h4 class = "title2"
+    style="font-size: 1.5;">Photographer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developer.</h4> -->
     <h4 class = "title2"
-    style="font-size: 1.5;">Photographer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developer.</h4>
+    style="font-size: 1.5;">Software Engineer.</h4>
     <br/>
     <br/>
 
@@ -119,10 +118,11 @@ body, h1,h2,h3,h5,h6 {font-family: "Montserrat", sans-serif}
     </p>
   </div>
 
-    <button onclick="window.location.href = 'https://krittin1.github.io/resume.pdf';" class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download" ></i> Download Resume
-    </button>
+    
 
+    <button  onclick="window.location.href = 'https://krittin1.github.io/resume.pdf';" type="button" id="resume" class="btn btn-outline-warning">
+      <i class="fa fa-download" ></i>&nbsp;Download Resume</button>
+   
     <!-- Grid for pricing tables -->
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
@@ -166,15 +166,56 @@ body, h1,h2,h3,h5,h6 {font-family: "Montserrat", sans-serif}
     </div>
 
     <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
-    <a href="https://www.facebook.com/jatupat.shutup?fref=pb&hc_location=friends_tab" title="see more about James Jatupat"><img src="/images/james.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
-    <p><span class="w3-large w3-margin-right">James   Jatupat.</span> CTO at The Yerherher.</p>
-    <p>Teety Krittin is good person ever.</p><br>
+    <h3 class="w3-padding-24 w3-text-light-grey">Education</h3>
+   
+    <div class="college" >
+
+      <img class="img-col" src="/images/KU_Logo.png" width="90" height="100" >
+
+    </div>
+   
+    
+    <div class ="collegeDetail">
+      <!-- <img class="img-col" src="/images/KU_Logo.png" width="90" height="100" > -->
+    
+      <h4>
+        <b>Kasetsart University</b>
+     </h4>
+
+     
+      <p>Bachelor of Science | June 2016 - Present</p>
+      <p>BS Computer Science</p>
+    </div>
+ 
+
+    
+      
+      
+   
+
+    
 
 
-    <a href=" https://www.facebook.com/muk.nantiya?fref=pb&hc_location=friends_tab" title="contact Nantiya Saikeo"><img src="/images/muk.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"></a>
-    <p><span class="w3-large w3-margin-right">Nantiya   Saikeo .</span> CEO at Saikeo Corperation.</p>
-    <p>No one is better than Teety Krittin.</p>
+
+    <div class="school">
+      <br><br><br>
+      <img class="img-schol" src="/images/bsru.png" width="90" height="100" >
+
+    </div>
+
+    <div class ="schoolDetail">
+     
+    
+      <h4>
+        <b>Demonstration school of Bansomdejchaopraya Rajabhat University</b>
+     </h4>
+
+     
+      <p>| August 2011 - May 2013</p>
+      <p>Program in Mathematics Arts</p>
+    </div>
+
+
   <!-- End About Section -->
   </div>
 
@@ -183,23 +224,230 @@ body, h1,h2,h3,h5,h6 {font-family: "Montserrat", sans-serif}
     <h2 class="w3-text-light-grey">Experience</h2>
 
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/images/24796411_104789003643140_6318235460664792922_n.jpg" style="width:100%">
-        <img src="/images/093601a28627d35df0d71d8c345ce9cb.jpg" style="width:100%">
-        <img src="/images/266cbbe567b4b7378ea2f837da8e01ef.jpg" style="width:100%">
-      </div>
+   <div>
+     <br><br><br>
+    <center><img class="pm-project" src="/images/pmproject.png" width="700" height="500" ></center>
+   </div>
 
-      <div class="w3-half">
-        <img src="/images/forest.png" style="width:100%">
-        <img src="/images/bentley-continental-gt-wallpapers-hd-71252-6121060.png.jpg" style="width:100%">
-        <img src="/images/big-boy-canon_free_stock_photos_picjumbo_IMG_7925-2210x1473.jpg" style="width:100%">
-        <img src="/images/imagesJ045198F.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
+   <div class="pm">
+    <br>
+     
+     <a class="title-pm" href="https://github.com/bomsoul/pmproject">Parents Face Recognition</a>
+     <br>
+     <img class="js" src="/images/js.png" width="30" height="30" >
+     <img class="react" src="/images/react.png" width="50" height="30" >
+     <img class="firebase" src="/images/firebase.png" width="30" height="30" >
+     <p class="pm-detail">Project Management project(2020) by a developer in the team develops a face detection application using 
+       React.js Firebase and machine learning algorithm. This project helps parents to pick up their kids 
+       at kindergarten. They can take a photo of their face and summit it in the system. The system will give a result
+       that you are their parent or not.
+      
+     </p>
+     
+</div>
+
+
+<div>
+  <br><br><br>
+ <center><img class="pm-project" src="/images/nsc.jpg" width="700" height="500" ></center>
+</div>
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="https://krittin1.github.io/poster.pdf">Contest: NSC 2020 Thailand</a>
+   <br>
+   
+   <p class="pm-detail">Participating in team member in National Software Contest(semi-final round) 2020
+     hosted by Sirindhorn International Institute of Technology.Our project is about snake image recognition
+     mobile-web application.We use Deep learning and web application to solve the problem in Thailand. 
+    
+   </p>
+   
+</div>
+
+
+
+<div>
+  <br><br><br>
+ <center><img class="pm-project" src="/images/result.jpg" width="700" height="500" ></center>
+</div>
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="https://github.com/krittin1/viper">Nonvenomous Snake Recognition</a>
+   <br>
+   <img class="js" src="/images/python.png" width="30" height="30" >
+   <img class="js" src="/images/keras.png" width="70" height="20" >
+   <img class="js" src="/images/tensorflow.png" width="30" height="30" >
+   <img class="js" src="/images/js.png" width="30" height="30" >
+   <p class="pm-detail">Full Stack Developer develops web applications with deep neural 
+     network back-end using HTML/CSS, Tensorflow Keras, and Python with Flask.
+     In order to develop an application to classify venomous and non-venomous 
+     snakes using deep artificial neural network Convolutional Neural Network and
+     for diagnose to help correctly treatment by a professional physician.user take 
+     a photo of snake and sent to the system.The result will appear in accuracy of
+     venomous snake and classification type of sanke that bit you.  
+    
+   </p>
+   
+</div>
+
+
+
+<div>
+  <br><br><br>
+ <center><img class="pm-project" src="/images/nutflix.png" width="700" height="500" ></center>
+</div>
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="https://github.com/krittin1/nutflix-just-watchit">Nutflix</a>
+   <br>
+   <img class="js" src="/images/java.png" width="30" height="30" >
+   <p class="pm-detail">Software Construction 
+     project by a full stack developer application for booking cinema ticket using Java, JavaFX and
+     file API.The slogan is just watch  it.Application for booking seat in the cinema.You can
+     choose movie threatre genre of movie you like and your seat!.Then pay it in this app.
+      This is desktop application.Lets have a good moment together.
+    
+   </p>
+   
+</div>
+
+
+<div>
+  <br><br><br>
+ <center><img class="pm-project" src="/images/projectwebtech1.jpg" width="700" height="500" ></center>
+</div>
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="">Ticket Went</a>
+   <br>
+   <img class="js" src="/images/php.png" width="30" height="20" >
+   <img class="js" src="/images/laravel.png" width="30" height="20" >
+   <p class="pm-detail">
+    Web Technology project II (2019) by front end developer in event ticket sales 
+    web application using HTML/CSS PHP with Laravel.The project sales ticket for events.
+    You can register as a member and sign in to see several events if you interested any
+    events you just choose it and buy a ticket online in this platform.
+   </p>
+   
+</div>
+
+
+
+<div>
+  <br><br><br>
+ <center><img class="pm-project" src="/images/webtech1.jpg" width="700" height="500" ></center>
+</div>
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="#">CAAS Advisor Assistant System</a>
+   <br>
+   <img class="js" src="/images/php.png" width="30" height="20" >
+   
+   <p class="pm-detail">
+    Web Technology project I (2019) by front end developer in Advisor Assistant system
+    web application using HTML/CSS PHP phpmyadmin and Google and Line API.
+    This project systems administrator, student and teacher can use it in classroom.
+    administrator can add, edit or remove courses.Teacher can add student in their 
+    course.Student can view their grades in sysytem profile.
+   </p>
+   
+</div>
+
+
+
+
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="">TODO List Project Management</a>
+   <br>
+   <img class="js" src="/images/js.png" width="30" height="20" >
+   <img class="js" src="/images/vue.png" width="30" height="20" >
+   <p class="pm-detail">
+    If your team have problem about
+    misunderstanding task procedures, and details TODO List will help you.TODO List and 
+    project management web application using Vue.js.Web application
+    to help development team manage their project, use time process less and 
+    known software's progress.  
+   </p>
+   
+</div>
+
+
+<div>
+  <br><br><br>
+ <center><img class="pm-project" src="/images/sa.jpg"  ></center>
+</div>
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="">PK Central Car</a>
+   <br>
+   <img class="js" src="/images/java.png" width="30" height="20" >
+   
+   <p class="pm-detail">
+   System Analysis and Design project name PK Central Car a desktop application
+   using Java programming language,JavaFX and SQlite database. This application for 
+   sell second hand car.If you want a car but, not expensive you can regis this app
+   and go to selected our cars. 
+   </p>
+   
+</div>
+
+
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="">Dev Camp#6</a>
+   <br>
+  
+   <p class="pm-detail">
+   Participation in Software Development Training Camp seminar and workshop
+   hosted by Department of Computer Science Kasetsart University.This camp
+   training about web and mobile application develpment, game programming
+   and Iot(Internet of Thing).
+   </p>
+   
+</div>
+
+
+
+
+<div class="pm">
+  <br>
+   
+   <a class="title-pm" href="">Contest: ACM-ICPC Thailand</a>
+   <br>
+ 
+   <p class="pm-detail">
+    Paticipating in team member for solving programming problems.The International
+    programming contest for college students around the world.Each team have three
+    people for solve real world problems and build innovation together.
+   </p>
+   
+</div>
+
+
+
+
+
+
+  
   <!-- End Portfolio Section -->
+
   </div>
 
   <!-- Contact Section -->
